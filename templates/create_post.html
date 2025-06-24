@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %} Create Post {% endblock %}
+
+{% block content %}
+
+<h2>Create a new Blog Post</h2>
+
+<form method="POST" action="{{ url_for('create_post') }}">
+    
+    <label for="image">Image Url :</label><br>
+    <input type="text" name="image" id="image" required/><br><br>
+
+
+    <label for="title">Title:</label><br>
+    <input type="text" name="title" id="title" required/><br><br>
+
+    <label for="author">Author:</label><br>
+    <input type="text" name="author" id="author" required/><br><br>
+
+    <label for="content">Content:</label><br>
+    <input type="text" name="content" id="content" required/><br><br>
+
+    <button type="submit">Publish</button>
+</form>
+{% endblock %}

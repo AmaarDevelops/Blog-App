@@ -1,0 +1,110 @@
+.base-head{
+    margin-left: 40vw;
+}
+
+.reg{
+    margin-left: 45vw;
+    text-decoration: None;
+}
+.main-head{
+    margin-left: 44vw;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.card{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+.card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.card-body{
+    padding: 15px;
+}
+.card-body h3{
+    margin-top: 0;
+}
+#create-post-btn{
+    position: relative;
+    bottom: 150px;
+    left: 70vw;
+    border: None;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    height: 6vh;
+    width: 8vw;
+    cursor: pointer;
+    font-size: medium;
+    font-family: sans-serif;
+}
+#read-more{
+    background-color: blue;
+    color: white;
+    border: None;
+    cursor: pointer;
+    height: 4vh;
+}
+.reg-head{
+    margin-left: 45vw;
+    font-size: 5vh;
+}
+.register{
+    margin-left: 43vw;
+}
+#reg-btn{
+    border: None;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    height: 6vh;
+    width: 14vw;
+    cursor: pointer;
+    font-size: medium;
+    font-family: sans-serif;
+}
+.reg-input{
+    height: 6vh;
+    width: 14vw;
+    border: None;
+    outline:None;
+    background-color: gray;
+    color: white;
+}
+.log-head{
+    margin-left: 46vw;
+}
+.login-form{
+    margin-left: 43vw;
+}
+#log-btn{
+    border: None;
+    width: 14vw;
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 6vh;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.log-input{
+    height: 6vh;
+    width: 14vw;
+    border: None;
+    outline:None;
+    background-color: gray;
+    color: white;
+
+}
